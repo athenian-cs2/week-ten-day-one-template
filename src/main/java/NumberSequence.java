@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class NumberSequence {
     private int[] arr;
 
@@ -8,5 +10,10 @@ public class NumberSequence {
     // array arr contains: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
     public NumberSequence() {
         // YOUR CODE HERE
+    }
+
+    // Calls Arrays.toString for the toString method
+    public String toString() {
+        return "NumberSequence contains: " + Arrays.toString(this.arr);
     }
 }
