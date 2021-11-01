@@ -6,7 +6,7 @@ plugins {
 group 'org.athenian'
 version '1.0-SNAPSHOT'
 
-mainClassName = 'BankClient'
+mainClassName = 'Client'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
